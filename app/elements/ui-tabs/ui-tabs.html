@@ -1,0 +1,46 @@
+<link rel="import" href="../../packages/polymer/polymer.html">
+
+<polymer-element name="ui-tabs" attributes="">
+  <template>
+    <link rel="stylesheet" href="ui-tabs.css">
+    <style>
+
+
+    </style>
+    <section>
+      <!-- Pure CSS Tabs <span>Just CSS, No JS!</span></h1> <h1>-->
+      <ul class="tabs">
+        <li>
+          <input type="radio" name="tabs" id="tab1" checked />
+          <label for="tab1">Description</label>
+          <div id="tab-content1" class="tab-content">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</p>
+          </div>
+        </li>
+
+        <li>
+          <input type="radio" name="tabs" id="tab2" />
+          <label for="tab2">Specification</label>
+          <div id="tab-content2" class="tab-content">
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo?</p>
+          </div>
+        </li>
+      </ul>
+
+      <br style="clear: both;" />
+
+      <p class="link">See the <a href="http://codepen.io/wallaceerick/pen/IGxim">3D Box</a> demo!</p>
+    </section>
+
+    <p class="p">Demo by Tim Evko. <a href="http://www.sitepoint.com/you-dont-need-javascript-for-that" target="_blank">See article</a>.</p>
+  </template>
+  <script>
+    (function () {
+
+      Polymer({
+        // define element prototype here
+      });
+
+    })();
+  </script>
+</polymer-element>
